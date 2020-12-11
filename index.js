@@ -102,10 +102,10 @@ const start = async (tobz = new Client()) => {
         }))*/
 
         // listening on Incoming Call
-        tobz.onIncomingCall(( async (call) => {
-            await tobz.sendText(call.peerJid, 'Maaf, saya tidak bisa menerima panggilan. nelfon = block!.\nJika ingin membuka block harap chat Owner!')
-            .then(() => tobz.contactBlock(call.peerJid))
-        }))
+        // tobz.onIncomingCall(( async (call) => {
+        //     await tobz.sendText(call.peerJid, 'Maaf, saya tidak bisa menerima panggilan. nelfon = block!.\nJika ingin membuka block harap chat Owner!')
+        //     .then(() => tobz.contactBlock(call.peerJid))
+        // }))
     }
 
 /**
